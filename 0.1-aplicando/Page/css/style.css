@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+}
+.container div {
+    width: 100px;
+    right: 100px;
+    background-color: aqua;
+    border-radius: 2px;
+    border-color: blueviolet;
+    
+}
