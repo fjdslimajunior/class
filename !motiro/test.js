@@ -32,9 +32,15 @@
 
 // console.log(custoTotal);
 
-function contaSemente(colunas, linhas) {
-    return colunas + linhas * colunas;
+// function contaSemente(colunas, linhas) {
+//     return colunas + linhas * colunas;
+// }
+
+// const multiConta = contaSemente(5,15);
+// console.log(multiConta);
+
+function listaDeEstudante(est1 = 'Lucas', est2 = 'Cainã', est3 = 'Daniel') {
+    console.log(`As pessoas que se destacaram foram: ${est1}, ${est2} e ${est3}.`);
 }
 
-const multiConta = contaSemente(5,15);
-console.log(multiConta);
+listaDeEstudante('Laura', 'Jamile', 'Maiara');
