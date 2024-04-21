@@ -21,13 +21,20 @@
 // }
 
 //criação de função e teste
-function constaSemente(linhas,colunas) {
-    return linhas * colunas;
-}
-function custoSemente(linhas,colunas) {
-    return constaSemente(linhas,colunas) * 0.80;
-}
-//const quantSemente = constaSemente(11,23);
-const custoTotal = custoSemente(11,23);
+// function constaSemente(linhas,colunas) {
+//     return linhas * colunas;
+// }
+// function custoSemente(linhas,colunas) {
+//     return contaSemente(linhas,colunas) * 0.80;
+// }
+// //const quantSemente = contaSemente(11,23);
+// const custoTotal = custoSemente(11,23);
 
-console.log(custoTotal);
+// console.log(custoTotal);
+
+function contaSemente(colunas, linhas) {
+    return colunas + linhas * colunas;
+}
+
+const multiConta = contaSemente(5,15);
+console.log(multiConta);
