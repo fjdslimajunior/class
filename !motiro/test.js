@@ -44,8 +44,8 @@
 // }
 
 // listaDeEstudante('Laura', 'Jamile', 'Maiara');
-const mLargura = 100;
-const mComprimento = 200;
+const cmLargura = 100;
+const cmComprimento = 200;
 
 /*transformando em ternário exemplo: condicao ? expressao1 : expressao2;
 Isso significa que se a condicao for verdadeira, a expressao1 será avaliada e retornada, e se a condicao for falsa, a expressao2 será avaliada e retornada.
@@ -53,7 +53,7 @@ Isso significa que se a condicao for verdadeira, a expressao1 será avaliada e r
 No nosso exemplo, a condicao é largura <= MAX_WIDTH && comprimento <= MAX_LENGTH. Se essa condição for verdadeira, a expressao1 será 'A mesa cabe na sala!', 
 e se a condição for falsa, a expressao2 será 'A mesa é maior que o espaço disponível!'.
 */
-const areaDaMesa = (largura, comprimento) => largura <= mLargura && comprimento <= mComprimento ? 'A mesa cabe na sala!' :
+const areaDaMesa = (largura, comprimento) => largura <= cmLargura && comprimento <= cmComprimento ? 'A mesa cabe na sala!' :
         'A mesa é maior que o espaço disponível!';
 
 console.log(areaDaMesa(300,350));
